@@ -1,0 +1,130 @@
+# Sentiment Analysis Using Naive Bayes
+NAME - HRITHIK ROSHAN
+REG NO. - 25BCY10209
+B.TECH CSE CYBER 
+
+## 1. Introduction
+
+Sentiment Analysis is a Natural Language Processing (NLP) technique used to determine whether a piece of text expresses a positive, negative, or neutral sentiment. It is widely used in applications like product reviews, social media analysis, and customer feedback systems.
+
+This project implements a simple sentiment analysis model using the Naive Bayes algorithm and a small custom dataset.
+
+---
+
+## 2. Objective
+
+* To build a basic sentiment classification model.
+* To classify text into Positive, Negative, and Neutral categories.
+* To understand how machine learning works with text data.
+
+---
+
+## 3. Tools and Technologies Used
+
+* Programming Language: Python
+* Libraries:
+
+  * scikit-learn
+  * CountVectorizer
+  * Multinomial Naive Bayes
+
+---
+
+## 4. Methodology
+
+### 4.1 Data Collection
+
+A small dataset of sentences was manually created and labeled into three categories:
+
+* Positive
+* Negative
+* Neutral
+
+### 4.2 Data Preprocessing
+
+The text data is converted into numerical format using the Bag of Words model with CountVectorizer.
+
+### 4.3 Model Training
+
+A Multinomial Naive Bayes classifier is trained using the processed data.
+
+### 4.4 Testing and Evaluation
+
+A test dataset is used to evaluate the model performance using accuracy score.
+
+### 4.5 Prediction System
+
+A user input system is implemented where users can enter a sentence and the model predicts:
+
+* Sentiment label
+* Probability of each class
+
+---
+
+## 5. Implementation
+
+### 5.1 Feature Extraction
+
+CountVectorizer converts text into a matrix of token counts.
+
+### 5.2 Model Used
+
+Multinomial Naive Bayes is used because it works well with text classification problems.
+
+### 5.3 Evaluation Metric
+
+Accuracy Score is used to measure model performance.
+
+---
+
+## 6. Results
+
+The model was tested on a small dataset and achieved approximately:
+
+Accuracy: ~80%
+
+Example Predictions:
+
+* "I love this movie" → Positive
+* "This food is terrible" → Negative
+* "Today is a normal day" → Neutral
+
+---
+
+## 7. Advantages
+
+* Simple and easy to implement
+* Fast training and prediction
+* Works well for small datasets
+
+---
+
+## 8. Limitations
+
+* Small dataset reduces accuracy
+* Cannot understand context deeply
+* Limited vocabulary
+* May give incorrect results for complex sentences
+
+---
+
+## 9. Future Improvements
+
+* Use a larger dataset
+* Apply TF-IDF instead of CountVectorizer
+* Use advanced models like Logistic Regression or Deep Learning
+* Deploy as a web application
+
+---
+
+## 10. Conclusion
+
+This project demonstrates how machine learning can be used for sentiment analysis. Although the model is basic, it provides a good understanding of text classification techniques and can be improved further for real-world applications.
+
+---
+
+## 11. References
+
+* scikit-learn documentation
+* Python official documentation
+* Online NLP tutorials
