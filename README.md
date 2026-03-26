@@ -127,5 +127,5 @@ ai-sentiment-analyzer/ │
 
 
 ## Author
-**Yuvraj Narode**  
+HRITHIK ROSHAN
 B.Tech CSE – Fundamentals of AI ML
